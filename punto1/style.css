@@ -1,0 +1,14 @@
+input:focus{
+
+background-color: aqua;
+}
+h1{
+
+    color: blue;
+}
+
+input:hover{
+
+
+    background-color: brown;
+}

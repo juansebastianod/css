@@ -1,0 +1,192 @@
+* {
+
+    margin: 0px;
+    background-color: black;
+
+
+}
+
+.listas li {
+    list-style: none;
+    margin: 15px;
+    color: blanchedalmond;
+    font-size: 18px;
+
+}
+
+
+
+.iconos {
+
+
+    width: 30%;
+
+}
+
+.medio {
+    position: relative;
+
+    width: 400px;
+
+}
+
+.container {
+
+    display: flex;
+}
+
+.container-1 input {
+
+    color: bisque;
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 15px;
+    height: 30px;
+}
+
+.medio .navegador ul li {
+
+
+
+    color: aliceblue;
+    list-style: none;
+    font-size: 12px;
+
+}
+
+.medio .navegador .navegar {
+
+    float: left;
+
+}
+
+.navegador {
+
+    margin-left: -35px;
+
+}
+
+.navegador .lista-2 {
+
+    display: flex;
+    height: 60px;
+
+
+
+
+}
+
+.navegador .lista-2 li {
+
+
+    margin-top: 20px;
+    margin-right: 15px;
+
+
+}
+
+.navegador .lista-2 li:hover {
+
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+
+}
+
+.contenedor h5 {
+
+
+    color: aliceblue;
+    margin-right: 160px;
+}
+
+.contenedor p {
+
+
+    color: rosybrown;
+    font-size: 12px;
+
+}
+
+.contenedor {
+
+    display: flex;
+
+}
+
+.medio .listado {
+
+
+    color: aliceblue;
+    margin-top: 10px;
+
+}
+
+.medio .listado .japon {
+
+
+    background-color: blue;
+    height: 35px;
+    border-radius: 3px;
+    padding-left: 40px;
+    padding-top: 8px;
+}
+
+.medio .listado .croacia {
+
+
+    background-color: dodgerblue;
+    height: 35px;
+    border-radius: 3px;
+    padding-left: 40px;
+    padding-top: 8px;
+}
+
+.medio .listado .tendencias {
+
+
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.right {
+
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+.right h4 {
+
+    color: aliceblue;
+
+}
+
+.right p {
+
+    color: beige;
+    font-size: 12px;
+
+    width: 100%;
+    margin-top: 5px;
+
+}
+
+.barra input {
+
+    color: bisque;
+    width: 220px;
+    border-radius: 15px;
+    margin-top: 15px;
+    height: 40px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.right .text {
+
+
+    color: beige;
+    font-size: 12px;
+
+    width: 250px;
+    margin-top: 15px;
+}

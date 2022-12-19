@@ -1,0 +1,36 @@
+.title{
+
+
+    color: white;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    text-align: center;
+    font-size: 0.875em;
+    
+}
+.container{
+
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+
+
+   
+
+}
+
+p{
+
+
+    padding: 8px;
+    text-align: justify;
+
+}
+
+footer{
+
+
+    background-color: darkgrey;
+    padding: 8px;
+}
