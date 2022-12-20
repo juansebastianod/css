@@ -19,9 +19,9 @@
 .iconos {
 
 
-    width: 30%;
-    font-family: 'Times New Roman', Times, serif;
-
+    width: 25%;
+    font-family: inherit;
+    
 
 }
 
@@ -266,7 +266,7 @@ footer {
 
     margin-top: 15px;
     display: flex;
-    background-color: aqua;
+    background-color: darkturquoise;
     height: 60px;
 
 
@@ -283,32 +283,34 @@ footer .botones button {
     border: 1px solid;
 
 
+
 }
 
 footer .pagina {
     margin-left: 300px;
-    background-color: aqua;
+    background-color: darkturquoise;
+    padding-top: 5px;
 }
 
 
 footer .botones {
 
-    padding-top: 15px;
+    padding-top: 12px;
     margin-left: 200px;
-    background-color: aqua;
+    background-color: darkturquoise;
 }
 
 footer .pagina p {
 
-    color: aliceblue;
-    background-color: aqua;
+    color: white;
+    background-color: darkturquoise;
 }
 
 footer .pagina h3 {
 
 
-    color: aliceblue;
-    background-color: aqua;
+    color: white;
+    background-color: darkturquoise;
 
 
 
@@ -317,7 +319,8 @@ footer .pagina h3 {
 footer .botones .a {
 
     color: aliceblue;
-    background-color: aqua;
+    background-color: darkturquoise;
+    height: 30px;
 
 }
 
@@ -325,5 +328,6 @@ footer .botones .b {
 
     color: black;
     background-color: white;
+    height: 30px;
 
 }
