@@ -20,6 +20,8 @@
 
 
     width: 30%;
+    font-family: 'Times New Roman', Times, serif;
+
 
 }
 
@@ -42,9 +44,24 @@
     border-radius: 15px;
     margin-top: 15px;
     height: 30px;
+
 }
 
-.medio .navegador ul li {
+.container-1 {
+
+
+    padding-left: 15px;
+}
+
+
+.nav {
+
+    border: 1px solid;
+    border-color: gray;
+    margin-top: -4px;
+}
+
+.medio .navegador .lista-2 li {
 
 
 
@@ -54,17 +71,9 @@
 
 }
 
-.medio .navegador .navegar {
 
-    float: left;
 
-}
 
-.navegador {
-
-    margin-left: -35px;
-
-}
 
 .navegador .lista-2 {
 
@@ -72,7 +81,10 @@
     height: 60px;
 
 
+}
 
+.navegador .lista-2 {
+    padding-left: 5px;
 
 }
 
@@ -88,6 +100,7 @@
 .navegador .lista-2 li:hover {
 
     text-decoration-line: underline;
+
     text-decoration-color: blue;
 
 }
@@ -118,27 +131,62 @@
 
     color: aliceblue;
     margin-top: 10px;
+    width: 87%;
 
 }
 
 .medio .listado .japon {
 
+    display: flex;
+    background-color: blue;
+    height: 45px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+
+
+.medio .listado .japon img {
+
+
+    width: 30px;
+    height: 40px;
+}
+
+
+.medio .listado .japon p {
 
     background-color: blue;
-    height: 35px;
-    border-radius: 3px;
-    padding-left: 40px;
-    padding-top: 8px;
+    margin-left: 10px;
+    padding-top: 10px;
 }
 
 .medio .listado .croacia {
 
 
+    display: flex;
     background-color: dodgerblue;
-    height: 35px;
+    height: 45px;
     border-radius: 3px;
-    padding-left: 40px;
-    padding-top: 8px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+
+.medio .listado .croacia img {
+
+
+    width: 30px;
+    height: 40px;
+}
+
+.medio .listado .croacia p {
+
+
+    background-color: dodgerblue;
+    margin-left: 10px;
+    padding-top: 10px;
 }
 
 .medio .listado .tendencias {
@@ -189,4 +237,93 @@
 
     width: 250px;
     margin-top: 15px;
+}
+
+
+.cuerpo {
+    border: 1px solid;
+    border-color: gray;
+    padding-left: 5px;
+    padding-top: 8px;
+
+}
+
+.derecha {
+
+    border: 1px solid;
+    border-color: gray;
+    padding-left: 5px;
+    padding-top: 8px;
+    border-radius: 5px;
+    width: 90%;
+
+
+
+}
+
+footer {
+
+
+    margin-top: 15px;
+    display: flex;
+    background-color: aqua;
+    height: 60px;
+
+
+
+}
+
+footer .botones button {
+
+
+
+    border-radius: 10px;
+
+
+    border: 1px solid;
+
+
+}
+
+footer .pagina {
+    margin-left: 300px;
+    background-color: aqua;
+}
+
+
+footer .botones {
+
+    padding-top: 15px;
+    margin-left: 200px;
+    background-color: aqua;
+}
+
+footer .pagina p {
+
+    color: aliceblue;
+    background-color: aqua;
+}
+
+footer .pagina h3 {
+
+
+    color: aliceblue;
+    background-color: aqua;
+
+
+
+}
+
+footer .botones .a {
+
+    color: aliceblue;
+    background-color: aqua;
+
+}
+
+footer .botones .b {
+
+    color: black;
+    background-color: white;
+
 }
